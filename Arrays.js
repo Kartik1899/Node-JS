@@ -1,6 +1,6 @@
 var a = [10,12,13];                     // Declaring array in js
 
-a.push(14);                             // Inserts value at front
+a.push(14);                             // Inserts value at end
 console.log(a);
 
 a.pop();                                // Removes element from the end

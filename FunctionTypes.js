@@ -12,8 +12,8 @@ a();
 
 /* Arrow Functions */
 
-var func = (... a)=>                    // For mulitple arugments we have to use a bracket
-{
+var func = (... a)=>                    // For mulitple arugments we have to use a bracket, here a is act as array of 5,6,7
+{                                       // we can use (a,b,c) also instead of (...a) to avoid array creation
     console.log(a);
     console.log('Arrow Function'); 
 }
